@@ -2,27 +2,65 @@
 <html>
     <head>
         <title> Personal branding page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel ="stylesheet" href="../css/styles.css"/>
     </head>
     
     <body>
         <div class = "topnav">
-            <a class="active" href ="home">Home </a>
-            <a class="active" href = "Embedded"> Embedded</a>
-            <a class="active" href = "automation">Automation testing</a>
-            <a class="active" href ="mobile">Mobile developemnt </a>
-            <a class="automation" href ="Contact">About me</a>
-            <a class="automation" href ="Contact">Contact us</a>
-            <a class="automation" href ="Portfolio">Portfolio</a>
+            <a class="active" href ="home">Home <i class="fa fa-home fa-pull-left" posi></i></a>
+            <div class = "dropdown">
+                <button class="dropbtn">Projects
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href = "#"> Embedded</a>
+                    <a href = "#">Automation testing</a>
+                    <a href ="#">Mobile developement </a>
+                </div>
+            </div>
+            <a href ="Contact">About me</a>
+            <a href ="Contact">Contact us</a>
+            <a href ="Portfolio">Servicios</a>
             <input type="text" placeholder="Search..">
         </div>
         <h1> Hello from html</h1>
+
+        <div align = "center" class = "welcomeDiv">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/efhFSyFp6RM" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <p1>Proyectos basicos</p1>
+
+        <div class = "projects">
+            <div class = "column" align="center">
+                <p>This project was created by hand on Dewimed</p>
+                <img src="../images/CPU.jpg" width="50%" height="50%">
+            </div>
+            <div class = "column" align="center">
+                <p>This project was created by hand on ford motor company</p>
+                <img src="../images/MobileApplication.jpg" width="50%" height="50%">
+            </div>
+            <div class = "column" align="center">
+                <p>This project was created by hand on Octopy</p>
+                <img src="../images/Testing.jpg" width="50%" height="50%">
+            </div>  
+        </div>
         
+        <footer>
+            <div class = "footer">
+                <div class="icon-bar">
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+                  </div>
+            </div>
+        </footer>
     </body>
     
-    <footer>
-        <div>
-            <p> footer </p>
-        </div>
-    </footer>
+    
 </html>
